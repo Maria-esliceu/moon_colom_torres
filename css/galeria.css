@@ -1,7 +1,3 @@
-body{
-    font-family: 'Roboto';
-}
-
 nav{
     background-color: #11097c;
     padding: 2%;
@@ -17,7 +13,7 @@ a{
     margin-right: 2%;
 }
 
-a.home{
+a.galeria{
     background-color: #483ceb;
     padding-left: 2%;
 }
