@@ -1,21 +1,28 @@
 nav{
     background-color: #11097c;
-    padding: 2%;
+    padding: 1%;
     text-align: center;
+    justify-content: space-around;
 }
 
 a{
     list-style-type: none;
     text-decoration: none;
     color: white;
-    padding: 2%;
+    padding: 1%;
     margin-left: 2%;
     margin-right: 2%;
 }
 
 a.reserva{
     background-color: #483ceb;
-    padding-left: 2%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.a{
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 #themoon{
@@ -44,7 +51,10 @@ a.reserva{
     text-align: center;
     display: flex;
     flex-direction: column;
-    
+}
+
+input{
+    border-radius: 10px;
 }
 
 

@@ -4,23 +4,29 @@ body{
 
 nav{
     background-color: #11097c;
-    padding: 2%;
+    padding: 1%;
     text-align: center;
+    justify-content: space-between;
 }
 
 nav a{
     list-style-type: none;
     text-decoration: none;
     color: white;
-    padding: 2%;
+    padding: 1%;
     margin-left: 2%;
     margin-right: 2%;
 }
 
 a.home{
     background-color: #483ceb;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.a{
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 #themoon{
