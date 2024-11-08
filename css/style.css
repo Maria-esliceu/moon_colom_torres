@@ -1,3 +1,18 @@
 body{
     font-family: 'Roboto';
 }
+
+nav{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #11097c;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    justify-content: space-evenly;
+}
+
+a.home{
+    background-color: #4439e7;
+    padding: 2%;
+}
