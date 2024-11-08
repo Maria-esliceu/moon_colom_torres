@@ -29,6 +29,14 @@ a.home{
     padding-right: 100px;
 }
 
+.bk{
+    background-color: rgba(79, 198, 235, 0.4);
+    border: 3px solid #0a0463;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center
+}
+
 #themoon{
     background-image: url(../img/alexander-andrews-vGCErDhrc3E-unsplash.jpg);
     height: 90vh;
@@ -51,19 +59,27 @@ a.home{
     z-index: 1;
 }
 
-section{
+div{
     z-index: 2;
     background-color: #483ceb;
 }
 
 
 div a{
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: none;
     margin-top: 2%;
     margin-bottom: 2%;
     background-color: #11097c;
     color: white;
     padding: 5px;
     border-radius: 10px;
+}
+
+div a:visited{
+    text-decoration: none;
+    text-transform: none;
 }
 
 
