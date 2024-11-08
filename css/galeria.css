@@ -17,3 +17,40 @@ a.galeria{
     background-color: #483ceb;
     padding-left: 2%;
 }
+
+#foto{
+    background-image: url(../img/moon.jpg);
+    height: 100vh;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 2rem;
+}
+
+.galeriafoto{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+
+img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    padding-bottom: 2%;
+}
+
+
+
+
+
+footer{
+    background-color: #11097c;
+    text-align: center;
+    color: white;
+}

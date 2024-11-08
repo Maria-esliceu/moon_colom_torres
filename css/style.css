@@ -8,7 +8,7 @@ nav{
     text-align: center;
 }
 
-a{
+nav a{
     list-style-type: none;
     text-decoration: none;
     color: white;
@@ -20,4 +20,48 @@ a{
 a.home{
     background-color: #483ceb;
     padding-left: 2%;
+}
+
+#themoon{
+    background-image: url(../img/alexander-andrews-vGCErDhrc3E-unsplash.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.3em;
+}
+
+#themoon::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+section{
+    z-index: 2;
+    background-color: #483ceb;
+}
+
+
+div a{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #11097c;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+footer{
+    background-color: #11097c;
+    text-align: center;
+    color: white;
 }
